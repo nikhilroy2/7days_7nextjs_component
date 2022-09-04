@@ -59,7 +59,7 @@ function CurrencyConversion(props) {
 
             </Head>
 
-            <div className="wrapper">
+            <div className="wrapper_sm">
                 <div className="" style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <h2>
                         Currency Conversion

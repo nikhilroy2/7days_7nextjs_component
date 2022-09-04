@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/dist/shared/lib/head';
-function August_4(props) {
+function AjaxTable(props) {
     const [searchResult, setSearchResult] = useState('')
 
     const tableSearch = event => {
@@ -47,7 +47,7 @@ function August_4(props) {
     );
 }
 
-export default August_4;
+export default AjaxTable;
 
 
 function CountrySearch({ searchResult }) {
